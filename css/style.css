@@ -1,0 +1,24 @@
+/* Enter your Styles below! */
+
+
+body { 
+	font-family: Helvetica, sans-serif;
+	 }
+
+h1, h2, h3, h4 {
+	font-family: Helvetica, sans-serif;
+}
+
+blockquote {
+	margin: 20px 60px;
+	font-family: Helvetica, sans-serif;
+}
+
+header {margin-bottom: 20px;}
+
+
+/*
+font-family: 'Mansalva', cursive;
+font-family: 'Dosis', sans-serif;
+font-family: 'Indie Flower', cursive;
+*/
