@@ -43,9 +43,9 @@ a:hover { color: black; }
 
 .grid {
 	display: grid;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: 1fr;
 	grid-gap: 40px;
-	width: 60%;
+	width: 90%;
 	margin: auto;
 }
 
@@ -58,3 +58,31 @@ font-family: 'Mansalva', cursive;
 font-family: 'Dosis', sans-serif;
 font-family: 'Indie Flower', cursive;
 */
+
+@media only screen and (min-width: 768px) {
+	body {
+		background-color: skyblue;
+	}
+	.grid {
+	grid-template-columns: 1fr 1fr;
+	width: 70%;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	body {
+		background-color: salmon;
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	body {
+		background-color: pink;
+	}
+}
+
+
+
+
+
+
