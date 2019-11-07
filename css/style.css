@@ -53,11 +53,7 @@ a:hover { color: black; }
 	background-color: #ccc;
 	padding: 20px;
 }
-/*
-font-family: 'Mansalva', cursive;
-font-family: 'Dosis', sans-serif;
-font-family: 'Indie Flower', cursive;
-*/
+
 
 @media only screen and (min-width: 768px) {
 	body {
@@ -82,7 +78,11 @@ font-family: 'Indie Flower', cursive;
 }
 
 
-
+/*
+font-family: 'Mansalva', cursive;
+font-family: 'Dosis', sans-serif;
+font-family: 'Indie Flower', cursive;
+*/
 
 
 
