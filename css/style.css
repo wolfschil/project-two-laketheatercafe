@@ -47,7 +47,7 @@
 
 /* Dropdown button on hover & focus */
 .dropbtn:hover, .dropbtn:focus {
-  background-color: #2980B9;
+  background-color: white;
 }
 
 /* The container <div> - needed to position the dropdown content */
@@ -60,6 +60,7 @@
     position: fixed;
     top: 50px;
     right: 125px;
+    z-index: 1;
 
 }
 
@@ -94,6 +95,7 @@ header {
 	padding-bottom: 30px;
 	padding-top: 30px;
 	padding-left: 15px;
+	z-index: 1;
 }
 
 body { 
@@ -102,7 +104,9 @@ body {
 	 }
 
 h1, h2, h3, h4 {
-	font-family: Helvetica, sans-serif;
+font-family: skolar-latin, serif;
+font-weight: 400;
+font-style: normal;
 }
 
 h1 {
@@ -114,9 +118,14 @@ font-size: 30px;
 color: white;
 }
 
-
 /* ensures that your images stretch the width of their containers */
 img { width: 100%; }
+
+.top-photo{
+	height:700px;
+	width: 3400px
+	overflow: hidden;
+}
 
 a { 
 	color: red;
