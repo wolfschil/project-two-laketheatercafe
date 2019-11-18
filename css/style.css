@@ -130,7 +130,7 @@ h1 {
 	font-family: cooper-black-std, serif;
 	font-weight: 400;
 	font-style: normal;
-	font-size: 30px;
+	font-size: 22px;
 	color: white;
 }
 
@@ -203,6 +203,10 @@ a:hover { color: black; }
 
 .menu1{
 	margin-top: 20px;
+}
+
+.menu2{
+	margin-top: 100px;
 }
 
 .white{
