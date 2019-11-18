@@ -45,7 +45,8 @@
 }
 
 
-
+.whats-playing {display: none;}
+.moviestickys {display: none;}
 
 .dropbtn {
   background-color: black;
@@ -113,6 +114,10 @@ header {
 	z-index: 1;
 }
 
+.header{
+	margin-top: 8px;
+}
+
 body { 
 	font-family: Helvetica, sans-serif;
 	font-size: 16px;
@@ -172,8 +177,8 @@ footer{
 img { width: 100%; }
 
 .top-photo{
-	height:700px;
-	width: 3400px
+	height:100vh;
+	width: auto;
 	overflow: hidden;
 }
 
@@ -202,7 +207,7 @@ a:hover { color: black; }
 }
 
 .menu1{
-	margin-top: 20px;
+	margin-top: 40px;
 }
 
 .menu2{
@@ -227,6 +232,10 @@ a:hover { color: black; }
 	body {
 		background-color: salmon;
 	}
+	.block{
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr 
+	}
 }
 
 @media only screen and (min-width: 1200px) {
@@ -234,8 +243,6 @@ a:hover { color: black; }
 		background-color: pink;
 	}
 }
-
-
 
 
 
