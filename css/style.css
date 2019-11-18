@@ -164,6 +164,7 @@ footer{
 	padding: 43px;
 	line-height: 20px;
 	text-align: center;
+	background-color: black;
 	
 }
 
@@ -195,6 +196,18 @@ a:hover { color: black; }
 	padding: 20px;
 }
 
+.menu{
+	padding: 0px;
+	margin: 0px;
+}
+
+.menu1{
+	margin-top: 20px;
+}
+
+.white{
+	background-color: white;
+}
 
 @media only screen and (min-width: 768px) {
 	body {
