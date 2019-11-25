@@ -47,8 +47,10 @@
 	padding: 7px;
 }
 
+}
 
 .whats-playing {display: none;}
+
 .moviestickys {display: none;}
 
 .dropbtn {
@@ -64,6 +66,9 @@
 
 }
 
+.whats-playing{
+	display: none;
+}
 /* Dropdown button on hover & focus */
 .dropbtn:hover, .dropbtn:focus {
   background-color: white;
@@ -284,10 +289,22 @@ right: 275px;
 
 }
 .thirsty img{
-	padding-left: 40%;
+	padding-right: 40%;
 	height: auto;
 	width: 60%;
 }
+
+.thirsty button{
+	position: absolute;
+	top: 390px;
+	right: 300px;
+}
+
+.thirsty h2{
+	top: 385px;
+	left: 275px;
+}
+
  .all{
  	display: block;
  	height: auto;
