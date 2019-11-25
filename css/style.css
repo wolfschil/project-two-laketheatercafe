@@ -296,13 +296,13 @@ right: 275px;
 
 .thirsty button{
 	position: absolute;
-	top: 390px;
-	right: 300px;
+	top: 50px;
+	right: 350px;
 }
 
 .thirsty h2{
-	top: 385px;
-	left: 275px;
+	top: 50px;
+	left: 255px;
 }
 
  .all{
@@ -312,6 +312,16 @@ right: 275px;
  	float:left;
  	padding-top: 100px;
  }
+.event {
+position: center;
+	padding-top: 100px;
+	margin-top:100px;
+}
+
+.img-parallax
+
+
+
 
 }
 
