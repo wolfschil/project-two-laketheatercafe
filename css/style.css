@@ -221,6 +221,9 @@ a:hover { color: black; }
 	background-color: white;
 }
 
+.all{
+	display: none;
+}
 @media only screen and (min-width: 768px) {
 	body {
 	
@@ -228,22 +231,21 @@ a:hover { color: black; }
 
 @media only screen and (min-width: 1024px) {
 	.homephotohide{display:none;}
-	div.whats-playing{
+	.whats-playing{
 		display: block;
 			margin-left: 30%;
 		    margin-top: 200px;  
-		    padding-bottom: 500px;	
+		    padding-bottom: 600px;	
 	}
 	.block h2{
-		font-size: 40px;
+		font-size: 50px;
 	}
 	.movieinfo{
 		display: block;
 		    margin-left: 35%;
 		    margin-top: 10px;
-		    padding-top: 200px;
 		    width: 650px;
-		    padding-bottom: 100px;
+		    padding-bottom: 200px;
 
 	}
 p{
@@ -251,19 +253,49 @@ p{
 }
 h2.movieinfotitle{ 
 		margin-left: 35%;
-		margin-top: 10px;
+		margin-top: 0px;
 		width: 500px;
 		text-align: left;
 	}
-.block a {
+.onetimebutton {
 	visibility:hidden;
 
 }
-.block img {width: 100%;
-      /* margin-left: 10px;
-       height: 100vh;}
- */
- 
+.hungry img{
+	padding-left: 40%;
+	height: auto;
+	width: 60%;
+}
+.hungry button{
+	position: absolute;
+top: 390px;
+left: 300px;
+}
+.hungry h2{
+top: 385px;
+right: 275px;
+}
+.block button{
+	border-style: solid;
+	font-size:20px;
+	background-color: black;
+	color: white;
+	padding: 7px;
+
+}
+.thirsty img{
+	padding-left: 40%;
+	height: auto;
+	width: 60%;
+}
+ .all{
+ 	display: block;
+ 	height: auto;
+ 	width: 500px;
+ 	float:left;
+ 	padding-top: 100px;
+ }
+
 }
 
 @media only screen and (min-width: 1200px) {
