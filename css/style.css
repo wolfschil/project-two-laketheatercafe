@@ -7,6 +7,7 @@
   overflow: hidden;
   font-size: 16px;
   margin-bottom: 0px;
+  display: block;
   }
 .block h2{
   position: relative;
@@ -18,7 +19,9 @@
   font-size: 10vw;
   color: white;
   font-weight: 400;
+
 }
+
 .img-parallax {
   width: 100vmax;
   height: 100vmax;
@@ -124,7 +127,7 @@ body {
 	background-color: black;
 	 }
 
-h2, h4 {
+h2, h4{
 	font-family: skolar-latin, serif;
 	font-weight: 400;
 	font-style: normal;
@@ -220,27 +223,52 @@ a:hover { color: black; }
 
 @media only screen and (min-width: 768px) {
 	body {
-		background-color: skyblue;
-	}
-	.grid {
-	grid-template-columns: 1fr 1fr;
-	width: 70%;
-	}
+	
 }
 
 @media only screen and (min-width: 1024px) {
-	body {
-		background-color: salmon;
+	.homephotohide{display:none;}
+	div.whats-playing{
+		display: block;
+			margin-left: 30%;
+		    margin-top: 200px;  
+		    padding-bottom: 500px;	
 	}
-	.block{
-		display: grid;
-		grid-template-columns: 1fr 1fr 1fr 1fr 
+	.block h2{
+		font-size: 40px;
 	}
+	.movieinfo{
+		display: block;
+		    margin-left: 35%;
+		    margin-top: 10px;
+		    padding-top: 200px;
+		    width: 650px;
+		    padding-bottom: 100px;
+
+	}
+p{
+	line-height: 20px;
+}
+h2.movieinfotitle{ 
+		margin-left: 35%;
+		margin-top: 10px;
+		width: 500px;
+		text-align: left;
+	}
+.block a {
+	visibility:hidden;
+
+}
+.block img {width: 100%;
+      /* margin-left: 10px;
+       height: 100vh;}
+ */
+ 
 }
 
 @media only screen and (min-width: 1200px) {
 	body {
-		background-color: pink;
+
 	}
 }
 
