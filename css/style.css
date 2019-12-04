@@ -1,4 +1,20 @@
+.instalink{
+	height: 50px;
+	width: auto;
+    padding-left: 48%;
+    padding-right: 48%;
+    bottom: 8px;
+    margin-top: 50px;
+    margin-bottom: 20px;
 
+}
+.instalink img{
+	position: center;
+}
+
+.eventinfo h2{
+padding-bottom: 5px;
+}
 .container{
 	display:none;
 }
@@ -323,7 +339,7 @@ align-content: center;
 	.homephotohide{display:none;}
 	.whats-playing{
 		display: block;
-			margin-left: 30%;
+			margin-left: 29%;
 		    margin-top: 150px;  
 
 	}
@@ -422,7 +438,7 @@ h6{
 left: 25%;
 right: 25%;
 }
-.header{
+.header1{
 	display: none;
 }
 .nav{
@@ -576,13 +592,12 @@ li.dot.active {
 display: flex;
 justify-content: center;
 align-content: center;
-background-color: red;
 }
 
 .eventinfo img{
 	position: absolute;
 	align-content: center;
-	width: 25%;
+	width: 350px;
 	height: auto;
 }
 
@@ -609,7 +624,7 @@ background-color: red;
 	grid-template-columns: repeat(3, 1fr);
   	grid-template-rows: repeat(4, minmax(100px, 420px));
   	grid-auto-flow: row;
-  	grid-gap: 1rem;
+  	grid-gap: 2rem;
 
 
 }
@@ -632,6 +647,33 @@ background-color: red;
 }
 .instalink img{
 	position: center;
+}
+.showtimegrid{
+		display: grid;
+	grid-template-columns: repeat(2, 1fr);
+  	grid-template-rows: repeat(2, minmax(100px, 500px));
+  	grid-auto-flow: row;
+  	grid-gap: 10rem;
+}
+.showtimes1{
+	margin-left: 50px;
+	width: 400px;
+	height: auto;
+		position: flex;
+justify-content: center;
+align-content: center;
+margin-bottom: 100px;
+}
+.showtimes1 h3{
+margin-bottom: 100px;
+}
+.showtimesinfo {
+	display: block;
+width: 900px;
+	padding-bottom: 50px;
+	padding-top: 100px;
+align-content: center;
+padding-left: 25%;
 }
 
 }
